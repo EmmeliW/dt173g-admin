@@ -1,0 +1,29 @@
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+
+}
+
+body {
+    color: white;
+    margin: 100px;
+    background-color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+
+        
+    .logout {
+        font-size: 20px;
+        color: white;
+        border: white 2px solid;
+        padding: 5px 10px;
+    }
+    .logout:hover {
+        color: rgb(197, 81, 197);
+        background-color: white;
+    }
+}

@@ -1,0 +1,32 @@
+#updateDiv {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    display: none;
+    background-color: black;
+    border: white 5px solid;
+
+    form {
+        width: 100%;
+        max-width: 350px;
+        margin: 50px auto;
+
+        h3 {text-align: center;}
+        
+        input {
+            width: 100%;
+            margin: 10px 0 20px 0;
+        }
+        input[type=submit] {
+            margin: 5px 0;
+            border: none;
+            padding: 3px;
+        }
+        input[type=submit]:hover {
+            background-color: rgb(197, 81, 197);
+            color: white;
+        }
+    }
+}

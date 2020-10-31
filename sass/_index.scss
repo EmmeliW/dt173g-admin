@@ -1,0 +1,31 @@
+.inlogg {
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+    label {
+        margin-bottom: 10px;
+        display: block;
+    }
+    input {
+        display: block;
+        margin-bottom: 15px;
+        margin: auto;
+        width: 100%;
+        padding: 3px 10px;
+    }
+    input[type=submit] {
+        margin-top: 30px;
+        padding: 5px 10px;
+        border: none;
+        font-weight: 700;
+    }
+    input[type=submit]:hover {
+        background-color: rgb(197, 81, 197);
+        color: white;
+    }
+}
